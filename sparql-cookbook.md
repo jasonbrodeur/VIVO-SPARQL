@@ -45,7 +45,7 @@ WHERE {
 ```
 # Example 2: Search Example 1 output for a single user by first name
 Returned: individual's URI | organization URI | vcardname URI | First Name | Last Name
-```
+```sparql
 PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
@@ -91,7 +91,7 @@ WHERE {
 # Example 3: Search/Filter Example 1 output for a single user by first name
 *Using the FILTER function to search*
 Returned: individual's URI | organization URI | vcardname URI | First Name | Last Name
-```
+```sparql
 PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
@@ -137,7 +137,7 @@ WHERE {
 # Example 4: Search/Filter Example 1 output--search both first and last names
 *Using the FILTER function to search*
 Returned: individual's URI | organization URI | vcardname URI | First Name | Last Name
-```
+```sparql
 PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
@@ -183,7 +183,7 @@ WHERE {
 # Example 5: Search/Filter Example 1 output--search both first and last names using partial strings
 *Using the FILTER function to search*
 Returned: individual's URI | organization URI | vcardname URI | First Name | Last Name
-```
+```sparql
 PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
