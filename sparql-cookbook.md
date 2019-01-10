@@ -306,3 +306,8 @@ WHERE {
 
 }
 ```
+?x a vivo:FacultyMember
+?x vitro:mostSpecificType vivo:FacultyMember
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>                | <http://vivoweb.org/ontology/core#FacultyMember> 
+<http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> | <http://vivoweb.org/ontology/core#FacultyMember>
