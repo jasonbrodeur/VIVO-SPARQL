@@ -274,7 +274,7 @@ WHERE
 ```
 
 Example 7. Return all people in VIVO, in the case that you have lost all faculty members
-
+```sparql
 PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
@@ -298,9 +298,8 @@ PREFIX vcard:    <http://www.w3.org/2006/vcard/ns#>
 PREFIX vitro-public: <http://vitro.mannlib.cornell.edu/ns/vitro/public#>
 PREFIX vivo:     <http://vivoweb.org/ontology/core#>
 PREFIX scires:   <http://vivoweb.org/ontology/scientific-research#>
-#
-# This example lists all faculty members for a given department - both by URI and name 
-#
+```
+
 SELECT ?x 
 WHERE {
 	?x a mcmaster:Internal .
