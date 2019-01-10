@@ -298,7 +298,6 @@ PREFIX vcard:    <http://www.w3.org/2006/vcard/ns#>
 PREFIX vitro-public: <http://vitro.mannlib.cornell.edu/ns/vitro/public#>
 PREFIX vivo:     <http://vivoweb.org/ontology/core#>
 PREFIX scires:   <http://vivoweb.org/ontology/scientific-research#>
-```
 
 SELECT ?x 
 WHERE {
@@ -306,3 +305,4 @@ WHERE {
     FILTER (!regex(str(?x), "institutional")) .
 
 }
+```
