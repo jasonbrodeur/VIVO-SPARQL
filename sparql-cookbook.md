@@ -306,8 +306,10 @@ WHERE {
 
 }
 ```
-?x a vivo:FacultyMember
+?x a vivo:FacultyMember  
 ?x vitro:mostSpecificType vivo:FacultyMember
+
+[example](https://stackoverflow.com/questions/19502398/sparql-update-example-for-updating-more-than-one-triple-in-a-single-query)
 
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>                | <http://vivoweb.org/ontology/core#FacultyMember> 
 <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> | <http://vivoweb.org/ontology/core#FacultyMember>
